@@ -19,12 +19,16 @@ This project is a Serverless Todo List Application developed as part of the 1Sto
 
 ## Project Structure
 
+## Project Structure
+
+```
 AWS-Serverless-Todo-App/
 │── index.html
 │── style.css
 │── script.js
 │── images/
-
+│── README.md
+```
 ## Author
 
 Shashiranjan Tiwari
