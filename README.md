@@ -1,9 +1,13 @@
 # AWS Serverless Todo App
 
 ## Project Overview
-This project is a Serverless Todo List Application developed as part of the 1Stop.ai Cloud Computing Internship.
+
+This project is a **Serverless Todo List Application** developed as part of the **1Stop.ai Cloud Computing Internship**. The application demonstrates how AWS serverless services can be used to build a simple Todo application without managing servers.
+
+---
 
 ## Technologies Used
+
 - HTML5
 - CSS3
 - JavaScript
@@ -11,17 +15,21 @@ This project is a Serverless Todo List Application developed as part of the 1Sto
 - Amazon API Gateway
 - Amazon DynamoDB
 
+---
+
 ## Features
-- Add Todo
-- Delete Todo
+
+- Add Todo Task
+- Delete Todo Task
 - Serverless Architecture
 - Responsive User Interface
+- AWS Cloud Integration
+
+---
 
 ## Project Structure
 
-## Project Structure
-
-```
+```text
 AWS-Serverless-Todo-App/
 │── index.html
 │── style.css
@@ -29,8 +37,30 @@ AWS-Serverless-Todo-App/
 │── images/
 │── README.md
 ```
+
+---
+
+## Output
+
+The application allows users to:
+
+- Add new tasks
+- Delete existing tasks
+- Store data using AWS services
+- Access the application through a simple web interface
+
+---
+
 ## Author
 
-Shashiranjan Tiwari
+**Shashiranjan Tiwari**
 
 Cloud Computing Intern
+
+Roorkee Institute of Technology
+
+---
+
+## Internship
+
+**1Stop.ai – Cloud Computing Internship (2026)**
