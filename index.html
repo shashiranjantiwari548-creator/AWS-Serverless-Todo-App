@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWS Serverless Todo App</title>
+    
+    <!-- Custom CSS Link -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Font Awesome Icons Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <h2>
+            <i class="fa-brands fa-aws"></i>
+            AWS Serverless Todo App
+        </h2>
+    </header>
+
+    <div class="container">
+        
+        <!-- Project Logo / Architecture Image Section -->
+        <div class="image-box" style="text-align: center; margin-bottom: 20px;">
+            <img src="images/aws.png" alt="AWS Architecture Logo" style="width: 80px; height: auto;">
+        </div>
+
+        <div class="card">
+            <h1>Task Manager</h1>
+            
+            <div class="input-box">
+                <input type="text" id="taskInput" placeholder="Enter your task">
+                <button onclick="addTask()">
+                    <i class="fa-solid fa-plus"></i> Add Task
+                </button>
+            </div>
+
+            <ul id="todoList">
+                <!-- Tasks will be dynamically added here -->
+            </ul>
+        </div>
+    </div>
+
+    <!-- Custom JavaScript Link -->
+    <script src="script.js"></script>
+</body>
+</html>
